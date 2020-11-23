@@ -1,0 +1,155 @@
+body {
+  background-color: #f7fbfc;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+hr {
+  width: 24cm;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+.language_bar {
+  background-color: none;
+  margin: 0;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  width: 180px;
+
+}
+
+.top_langlist {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.top_langlist li {
+  display: inline-block;
+
+}
+
+
+.first-container {
+  background-color: #8bcdcd;
+  margin: auto;
+  position: relative;
+  padding: 25px;
+  width: 21cm;
+}
+
+.Lars_img {
+  border-radius: 50%;
+  position: absolute;
+  right: 25px;
+  top: 50px;
+  width: 150px;
+}
+
+.profile-text {
+  width: 75%;
+  line-height: 1.5;
+}
+
+.second-container {
+  background-color: #cee397;
+  margin: auto;
+  position: relative;
+  padding: 25px;
+  width: 21cm;
+}
+
+.education {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.education th {
+  text-align: left;
+}
+
+.modules p {
+  margin: 0;
+}
+
+.thesis {
+  color: #11999E;
+  text-decoration: none;
+}
+
+.thesis:hover {
+  color: #EAF6F6
+}
+
+.third-container {
+  background-color: #f38181;
+  margin: auto;
+  position: relative;
+  padding: 25px;
+  width: 21cm;
+}
+
+.experience-table {
+  width: 100%;
+}
+
+.experience-table th {
+  text-align: left;
+}
+
+.experience-table td {
+  text-align: right;
+}
+
+.work-description {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.fish-img {
+  float: right;
+  margin-left: 10px;
+  width: 150px;
+}
+
+
+.other-workexperience p {
+  margin: 0;
+}
+
+.fourth-container {
+  background-color: #fce38a;
+  margin: auto;
+  position: relative;
+  padding: 25px;
+  width: 21cm;
+}
+
+.languages table {
+  width: 100%;
+}
+
+.languages th {
+  text-align: left;
+}
+
+.computer-img {
+  float: right;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.other-skills p {
+  margin: 0;
+}
