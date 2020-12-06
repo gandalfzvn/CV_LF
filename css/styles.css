@@ -54,6 +54,20 @@ p {
   background-color: #8bcdcd;
 }
 
+.link {
+  color: #11999E;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.link:hover {
+  color: #EAF6F6
+}
+
+.contact {
+  margin: 0 30px 0 0;
+}
+
 .Lars_img {
   border-radius: 50%;
   position: absolute;
@@ -76,7 +90,7 @@ p {
 }
 
 .education {
-  width: 90%;
+  width: 95%;
   margin-bottom: 2rem;
 }
 
@@ -84,13 +98,10 @@ p {
   text-align: left;
 }
 
-.thesis {
-  color: #11999E;
-  text-decoration: none;
-}
 
-.thesis:hover {
-  color: #EAF6F6
+
+.thesis {
+  font-size: 1rem;
 }
 
 .third-container {
