@@ -1,5 +1,6 @@
 body {
   background-color: #f7fbfc;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -7,46 +8,50 @@ h1 {
 }
 
 h2 {
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 7px;
   width: 24cm;
+  margin: 10px auto;
 }
 
 p {
   line-height: 1.5;
+  margin: 0;
 }
 
-
 .language_bar {
-  background-color: none;
   margin: 0;
   position: absolute;
-  right: 20px;
-  top: 0px;
-  width: 180px;
-
+  right: 5px;
+  top: 5px;
+  width: 200px;
 }
 
 .top_langlist {
   margin: 0;
   padding: 0;
-  text-align: right;
+  text-align: center;
 }
 
 .top_langlist li {
   display: inline-block;
-
 }
 
+.container {
+  border-radius: 2%;
+  margin: auto;
+  position: relative;
+  padding: 40px;
+  width: 21cm;
+}
 
 .first-container {
   background-color: #8bcdcd;
-  margin: auto;
-  position: relative;
-  padding: 25px;
-  width: 21cm;
 }
 
 .Lars_img {
@@ -57,6 +62,10 @@ p {
   width: 150px;
 }
 
+.profile {
+  margin-top: 30px;
+}
+
 .profile-text {
   width: 75%;
   line-height: 1.5;
@@ -64,10 +73,6 @@ p {
 
 .second-container {
   background-color: #cee397;
-  margin: auto;
-  position: relative;
-  padding: 25px;
-  width: 21cm;
 }
 
 .education {
@@ -77,10 +82,6 @@ p {
 
 .education th {
   text-align: left;
-}
-
-.modules p {
-  margin: 0;
 }
 
 .thesis {
@@ -94,22 +95,6 @@ p {
 
 .third-container {
   background-color: #f38181;
-  margin: auto;
-  position: relative;
-  padding: 25px;
-  width: 21cm;
-}
-
-.experience-table {
-  width: 100%;
-}
-
-.experience-table th {
-  text-align: left;
-}
-
-.experience-table td {
-  text-align: right;
 }
 
 .work-description {
@@ -117,27 +102,35 @@ p {
   margin-bottom: 50px;
 }
 
-.fish-img {
+.work-img {
   float: right;
   margin-left: 10px;
   width: 150px;
 }
 
+.biology-img {
+  width: 120px;
+}
 
-.other-workexperience p {
-  margin: 0;
+.crayfish-img {
+  width: 125px;
+}
+
+.pinetree-img {
+  background-color: lightblue;
+  border-radius: 5%;
+  float: left;
+  margin-right: 15px;
+  width: 110px;
 }
 
 .fourth-container {
   background-color: #fce38a;
-  margin: auto;
-  position: relative;
-  padding: 25px;
-  width: 21cm;
 }
 
 .languages table {
-  width: 100%;
+  margin-bottom: 40px;
+  width: 55%;
 }
 
 .languages th {
@@ -145,11 +138,14 @@ p {
 }
 
 .computer-img {
+  border-radius: 50%;
   float: right;
-  margin-left: 10px;
   width: 150px;
 }
 
-.other-skills p {
-  margin: 0;
+.bottom-container {
+  background-color: #66BFBF;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
