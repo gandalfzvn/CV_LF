@@ -51,7 +51,8 @@ p {
 }
 
 .first-container {
-  background-color: #8bcdcd;
+  /*background-color: #8bcdcd;*/
+  background-color: #a8e6cf
 }
 
 .link {
@@ -86,7 +87,9 @@ p {
 }
 
 .second-container {
-  background-color: #cee397;
+  /*background-color: #cee397;*/
+  background-color: #dcedc1;
+
 }
 
 .education {
@@ -95,6 +98,7 @@ p {
 }
 
 .education th {
+  margin: 10px;
   text-align: left;
 }
 
@@ -103,7 +107,8 @@ p {
 }
 
 .third-container {
-  background-color: #f38181;
+  /*background-color: #f38181;*/
+  background-color: #ffd3b6;
 }
 
 .work-description {
@@ -134,7 +139,8 @@ p {
 }
 
 .fourth-container {
-  background-color: #fce38a;
+  /*background-color: #fce38a;*/
+  background-color: #ffaaa5
 }
 
 .languages table {
@@ -154,6 +160,7 @@ p {
 
 .bottom-container {
   background-color: #66BFBF;
+  color: #f7fbfc;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
